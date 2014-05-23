@@ -1,0 +1,29 @@
+{
+  "name": "swap_device",
+  "description": "Installs/Configures swap_device",
+  "long_description": "# swap_device cookbook\n\n[![Build Status](https://travis-ci.org/evertrue/swap_device-cookbook.svg?branch=master)](https://travis-ci.org/evertrue/swap_device-cookbook)\n\nAggressively disables any kind of swap partition.\n\n# Requirements\n\nOptimized for (but does not require) EC2\n\n# Usage\n\nEither:\n\ninclude_recipe \"swap_device::disable\"\n\nor add it to a run list.\n\n# Attributes\n\nNone (currently).\n\n# Recipes\n\n`disable` - The only recipe in the cookbook.\n\n# Author\n\nAuthor:: EverTrue, Inc. (<eric.herot@evertrue.com>)\n",
+  "maintainer": "EverTrue, Inc.",
+  "maintainer_email": "eric.herot@evertrue.com",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "1.0.2"
+}
