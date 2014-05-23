@@ -23,7 +23,8 @@ end
 swap_devices += node['filesystem'].select { |_fs, conf| conf['fs_type'] == 'swap' }.keys
 
 swap_devices.uniq.each do |swap_device|
-  mount 'none' do
+  mount "none_#{swap_device}" do
+    name 'none'
     device swap_device
     fstype 'swap'
     action :disable
