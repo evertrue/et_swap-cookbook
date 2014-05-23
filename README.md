@@ -1,5 +1,7 @@
 # swap_device cookbook
 
+[![Build Status](https://travis-ci.org/evertrue/swap_device-cookbook.svg?branch=master)](https://travis-ci.org/evertrue/swap_device-cookbook)
+
 Aggressively disables any kind of swap partition.
 
 # Requirements
