@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: et_swap
+# Cookbook Name:: swap_device
 # Recipe:: default
 #
 # Copyright (C) 2013 EverTrue, Inc.

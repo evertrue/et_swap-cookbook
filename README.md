@@ -1,4 +1,4 @@
-# et_swap cookbook
+# swap_device cookbook
 
 Aggressively disables any kind of swap partition.
 
@@ -10,7 +10,7 @@ Optimized for (but does not require) EC2
 
 Either:
 
-include_recipe "et_swap::disable"
+include_recipe "swap_device::disable"
 
 or add it to a run list.
 

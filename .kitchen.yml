@@ -23,5 +23,5 @@ platforms:
 
 suites:
 - name: default
-  run_list: ["recipe[et_swap]"]
+  run_list: ["recipe[swap_device]"]
   attributes: {}
