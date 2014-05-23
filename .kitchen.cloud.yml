@@ -10,7 +10,7 @@ driver:
   availability_zone: us-east-1b
   security_group_ids: ['ci-testing']
   username: ubuntu
-  flavor_id: c3.large
+  flavor_id: m1.small
   interface: public
 
 platforms:
