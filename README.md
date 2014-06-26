@@ -12,7 +12,9 @@ Optimized for (but does not require) EC2
 
 Either:
 
+```ruby
 include_recipe "swap_device::disable"
+```
 
 or add it to a run list.
 
