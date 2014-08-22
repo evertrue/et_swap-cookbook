@@ -13,7 +13,9 @@ group :test do
   gem 'chefspec',   '~> 4.0'
   gem 'foodcritic', '~> 3.0'
   gem 'rubocop',    '~> 0.23'
+end
 
+gem :test, :integration do
   gem 'test-kitchen', '~> 1.2'
   gem 'kitchen-ec2',
     github: 'test-kitchen/kitchen-ec2',
