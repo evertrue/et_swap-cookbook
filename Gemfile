@@ -1,9 +1,5 @@
 source 'https://rubygems.org'
 
-group :development do
-  gem 'travis', '~> 1.6'
-end
-
 group :test, :development do
   gem 'rake'
 end
