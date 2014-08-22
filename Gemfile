@@ -15,6 +15,9 @@ group :test do
   gem 'rubocop',    '~> 0.16'
 
   gem 'test-kitchen', '~> 1.2'
-  gem 'kitchen-vagrant', '~> 0.15'
   gem 'kitchen-ec2', '~> 0.8'
+end
+
+group :test, :vagrant do
+  gem 'kitchen-vagrant', '~> 0.15'
 end
