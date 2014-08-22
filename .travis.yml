@@ -13,7 +13,7 @@ before_install:
 - bundle install
 - bundle exec berks install
 script:
-- KITCHEN_LOG=debug bundle exec rake travis
+- bundle exec berks install && bundle exec rake travis
 after_script:
 - bundle exec kitchen destroy
 notifications:
