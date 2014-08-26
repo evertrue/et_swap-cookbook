@@ -2,6 +2,7 @@
 
 [![Cookbook Version](https://img.shields.io/cookbook/v/swap_device.svg?style=flat)](https://supermarket.getchef.com/cookbooks/swap_device)
 [![Build Status](http://img.shields.io/travis/evertrue/swap_device-cookbook.svg?style=flat)](https://travis-ci.org/evertrue/swap_device-cookbook)
+[![Coverage Status](http://img.shields.io/coveralls/evertrue/swap_device-cookbook.svg?style=flat)](https://coveralls.io/r/evertrue/swap_device-cookbook)
 
 Aggressively disables any kind of swap partition.
 
