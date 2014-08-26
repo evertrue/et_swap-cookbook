@@ -1,6 +1,7 @@
 # swap_device cookbook
 
-[![Build Status](https://travis-ci.org/evertrue/swap_device-cookbook.svg?branch=master)](https://travis-ci.org/evertrue/swap_device-cookbook)
+[![Cookbook Version](https://img.shields.io/cookbook/v/swap_device.svg?style=flat)](https://supermarket.getchef.com/cookbooks/swap_device)
+[![Build Status](http://img.shields.io/travis/evertrue/swap_device-cookbook.svg?style=flat)](https://travis-ci.org/evertrue/swap_device-cookbook)
 
 Aggressively disables any kind of swap partition.
 
